@@ -1,18 +1,18 @@
 class Shoe
   
-  attr_accessor :brand, :color, :genre
+  attr_accessor :color, :size, :material, :condition
   
-  def initialize(title)
-    @title = title
+  def initialize(brand)
+    @brand = brand
   end 
   
-  def title
-    @title
+  def brand
+    @brand
   end 
 
   
-  def turn_page
-    puts "Flipping the page...wow, you read fast!"
+  def cobble
+    puts "the shoe has been repaired"
   end
   
 end
