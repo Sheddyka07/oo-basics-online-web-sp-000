@@ -16,6 +16,6 @@ class Shoe
   end
   
   if cobble
-    :condition = "new"
+    :condition == "new"
   end
 end
